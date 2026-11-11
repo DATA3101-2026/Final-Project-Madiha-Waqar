@@ -73,7 +73,7 @@ has changed since COVID19.
 Source:https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810024502
 
 **Producer and authority.** This dataset is published by Statistics
-Canada, Canada’s national statistical agency. Statistics Canada collects
+Canada. Statistics Canada collects
 and publishes economic and social data to help Canadians understand
 changes in the country’s economy and population. The dataset is part of
 its consumer price and food price stats.
@@ -91,12 +91,12 @@ obtained directly from Canadian grocery retailers. This information
 comes from retailers’ systems and includes details about products,
 quantities sold, and transaction prices.
 
-**Coverage and resolution.** The dataset covers Canada, individual
+**Coverage and resolution.** The dataset covers Canada,
 provinces and territories, and selected population centres. It is
 updated monthly and reports average retail prices for different food
-products in Canadian dollars. For my project, I will focus on the ten
+products in dollars. For my project, I will focus on the ten
 Canadian provinces and investigate the historical data available for the
-past decade (2016–2026). I will use the monthly prices to calculate
+past 7 years (2019–2026). I will use the monthly prices to calculate
 annual averages where appropriate.
 
 **Licence.** Open Government Licence – Canada. The dataset is available
@@ -208,9 +208,7 @@ The output shows that the Alberta dataset contains 115 rows and 86
 columns. It includes grocery products in the first column and monthly
 average retail prices in the remaining columns, covering September 2019
 to September 2026. The prices are recorded in dollars and the dataset
-includes information for different grocery items across each month. One
-thing I noticed is that the first row contains the unit of measurement
-(“Dollars”) rather than an actual grocery product.
+includes information for different grocery items across each month. 
 
 ## 2.2.2 Historical Minimum Wage Rates in Canada
 
@@ -267,9 +265,7 @@ will need to convert them to numeric values before analysis.
 
 ## 2.3: Investigated and rejected sources
 
-So far, I have not selected any alternative datasets to reject. My
-research has mainly focused on finding grocery price and minimum wage
-data that cover all Canadian provinces.
+So far, I have not selected any alternative datasets to reject.
 
 ## 2.4: What I could not find
 
@@ -338,11 +334,7 @@ details.
 participants or conduct surveys or interviews. Both datasets were
 collected and published by government organizations for public use.
 
-**Identifiability.** The datasets do not identify individuals. The
-smallest level of information used in my analysis is based on a
-province, product, and month for grocery prices, or a jurisdiction and
-effective date for minimum wages. Since the data is reported at these
-levels rather than for individual people, there is no risk of
+**Identifiability.** The datasets do not identify individuals. Since the data is reported at provincial level rather than for individual people, there is no risk of
 identifying someone through my analysis.
 
 **How sensitive data will be used.** Neither dataset contains sensitive
@@ -382,7 +374,7 @@ when presenting my results.
 
 I do not have any working data that needs to be kept private. Both
 datasets are publicly available and contain grocery prices and minimum
-wage information, not personal details. I am comfortable sharing the
+wage information, not personal details. I am fine with sharing the
 original data, cleaned datasets, and code so others can review and
 reproduce my work.
 
