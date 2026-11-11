@@ -4,11 +4,8 @@
 
 # Instructions
 
-Remember to use this to log your project process every time you use AI.
-Each time you add a row, commit it, with relevant notes about updating
-the log. This allows me to be able to see how you worked through
-problems if using LLMs.
+Remember to use this to log your project process every time you use AI. Each time you add a row, commit it, with relevant notes about updating the log. This allows me to be able to see how you worked through problems if using LLMs.
 
 | Date | Stage | Tool | What I asked | What I did with it |
-|------|-------|------|--------------|--------------------|
-|      |       |      |              |                    |
+|----|----|----|----|----|
+| 9th November | Stage 2 | Claude | How to fix the rows not displaying? | I followed its suggestion to use `skip = 9` in `read_csv()`, which skips the introductory information and empty lines so R starts reading from the actual column headings. |
